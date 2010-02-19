@@ -9,7 +9,7 @@ Summary:	Test::Base - A Data Driven Testing Framework
 Summary(pl.UTF-8):	Test::Base - środowisko testowe w oparciu o dane
 Name:		perl-Test-Base
 Version:	0.59
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
