@@ -8,13 +8,13 @@
 Summary:	Test::Base - A Data Driven Testing Framework
 Summary(pl.UTF-8):	Test::Base - środowisko testowe w oparciu o dane
 Name:		perl-Test-Base
-Version:	0.59
-Release:	2
+Version:	0.60
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	fa1458d8a940ab784d6fc39a8edc0cae
+# Source0-md5:	7d839807da66d69db32fc4b22994f9e4
 URL:		http://search.cpan.org/dist/Test-Base/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
