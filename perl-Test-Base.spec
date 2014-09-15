@@ -20,7 +20,9 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.42
-BuildRequires:	perl-Spiffy >= 0.30
+BuildRequires:	perl-Spiffy >= 0.40
+BuildRequires:	perl-Test-Deep
+BuildRequires:	perl-Test-Tester
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
