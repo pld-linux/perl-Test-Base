@@ -57,5 +57,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorlib}/Test/*.pm
 %{perl_vendorlib}/Test/Base
-%{perl_vendorlib}/Module/Install/TestBase.pm
 %{_mandir}/man3/*
