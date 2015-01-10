@@ -6,7 +6,7 @@
 %define	pdir	Test
 %define	pnam	Base
 Summary:	Test::Base - A Data Driven Testing Framework
-Summary(pl.UTF-8):	Test::Base - środowisko testowe w oparciu o dane
+Summary(pl.UTF-8):	Test::Base - środowisko testów opartych na danych
 Name:		perl-Test-Base
 Version:	0.88
 Release:	1
@@ -28,10 +28,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Test::Base - A Data Driven Testing Framework
+Test::Base - A Data Driven Testing Framework.
 
 %description -l pl.UTF-8
-Test::Base - środowisko testowe w oparciu o dane
+Test::Base - środowisko testów opartych na danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -57,6 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/Test/*.pm
+%{perl_vendorlib}/Test/Base.pm
 %{perl_vendorlib}/Test/Base
-%{_mandir}/man3/*
+%{_mandir}/man3/Test::Base*.3pm*
